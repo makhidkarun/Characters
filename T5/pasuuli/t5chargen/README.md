@@ -1,5 +1,4 @@
-T5 Character Generator in Perl by Robert Eaglestone
----------------------------------------------------
+# T5 CHARACTER GENERATOR
 
 SYNOPSIS
    perl t5chargen.pl [career=CAREER] [DNA=xxx] [UPP=ssahpgl-t] [terms=TERMS] [count=COUNT] [name=NAME] [quiet=1]
@@ -17,3 +16,11 @@ COUNT: The number of characters to generate.
 NAME: The character's name.
 
 quiet: Only prints the results. Default is to show the process.
+
+
+# CREW GENERATOR
+
+SYNOPSIS
+   perl crew.pl
+
+This script will iteratively run the above t5chargen.pl until a full crew is found.
